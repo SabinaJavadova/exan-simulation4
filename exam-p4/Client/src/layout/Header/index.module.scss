@@ -1,0 +1,21 @@
+header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+    padding: 2rem;
+    z-index: 1000000;
+    .container{
+        display: flex;
+       
+        
+        max-width: 1200px;
+        justify-content: space-between;
+        margin: auto;
+        ul{
+            display: flex;
+            gap: 2rem;
+        }
+    }
+}

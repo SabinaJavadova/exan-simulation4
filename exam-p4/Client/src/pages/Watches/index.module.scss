@@ -1,0 +1,28 @@
+.container{
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+    padding-top:7rem;
+    cursor: pointer;
+    .grid{
+        transition: 0.3s;
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        }
+        .ps{
+            padding: 5px;
+        }
+    }
+    input{
+        
+        border: none;
+        padding: 0.3rem;
+        width: 20%;
+        background-color: #F0F0F2;
+        margin-bottom: 1rem;
+        border-radius: 4px;
+       
+
+    }
+
+}
